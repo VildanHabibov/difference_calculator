@@ -1,12 +1,17 @@
 {
-  "name": "difference_calculator",
+  "name": "difference-calculator",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "Compares two configuration files and shows a difference",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {},
+  "bin": {
+    "gendiff": "bin/gendiff.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.0.0"
+  }
 }
